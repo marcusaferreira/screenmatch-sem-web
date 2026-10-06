@@ -20,6 +20,6 @@ public class ScreenmatchApplication implements CommandLineRunner {
 	@Override
 	public void run(String... args) {
 		Principal principal = new Principal();
-		principal.exibeMenu(environment.getProperty("OMDBAPI_KEY"));
+		principal.exibeMenu(environment.getProperty("OMDB_API_KEY"));
 	}
 }
